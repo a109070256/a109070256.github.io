@@ -13,9 +13,21 @@ p.redred{
     text-align: left;
     text-indent: 2em;
     background-color: #f0f0f0;
-    font-family: Noto serif TC', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Noto Serif TC', sans-serif;
+    }
 
 .blueblue{
     color:blue;
+}
+
+.expedu_icon {
+  color:blue
+}
+
+.expedu_icon:hover{
+    background-color: blue;
+    color: white;
 }
