@@ -2,17 +2,23 @@
     letter-spacing: 0.8px;
     line-height: 1.5em;
 }
+.bg-primary{
+    background-color: black !important
+}
 
 body{
     font-family: 'Noto sans TC', sans-serif;
 }
 
 p.redred{   
-    color:#78533E;
-    font-size: 32px;
+    color:brown;
+    border: 10px solid;
+    background-image: url(../assets/img/bg.jpg.jpg);
+    background-repeat: no-repeat;
+    font-size: 40px;
     text-align: left;
     text-indent: 2em;
-    background-color: #f0f0f0;
+    background-color: palegreen;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
