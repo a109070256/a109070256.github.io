@@ -3,6 +3,7 @@
     line-height: 1.5em;
 }
 .bg-primary{
+    background-image: url(../assets/img/sky.jpg);
     background-color: black !important
 }
 
@@ -11,10 +12,11 @@ body{
 }
 
 p.redred{   
-    color:brown;
+    color:white;
     border: 10px solid;
-    background-image: url(../assets/img/bg.jpg.jpg);
-    background-repeat: no-repeat;
+    border-style:outset;
+    border-color:aqua;
+    background-image: url(../assets/img/bg.jpg);   
     font-size: 40px;
     text-align: left;
     text-indent: 2em;
