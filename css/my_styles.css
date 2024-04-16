@@ -12,9 +12,9 @@ body{
 }
 
 p.redred{   
+    padding: 50px 150px 300px;
     color:white;
-    border: 10px solid;
-    border-style:outset;
+    border: 10px dashed;
     border-color:aqua;
     background-image: url(../assets/img/bg.jpg);   
     font-size: 40px;
@@ -38,4 +38,33 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .expedu_icon:hover{
     background-color: blue;
     color: white;
+}
+
+ol.list01{
+    list-style-type:upper-roman;
+}
+ol.list02{
+    list-style-type:square;
+}
+ol.list01>li:hover{
+    background-color:rgb(43, 155, 80);
+    color: brown;
+}
+table.table01{
+    width: 80%;
+    background-color:rgb(96, 211, 176);
+}
+table.table01 th{
+    border:1px solid #2a5d44;
+    text-align: center;
+}
+table.table01 td {
+    border:1px solid #2a5d44;
+    text-align: center;
+}
+table.table01 tr:nth-child(even) {
+    background-color: #5f9ea0;
+}
+table.table01 tr:nth-child(odd) {
+    background-color: burlywood ;
 }
