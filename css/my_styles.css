@@ -12,15 +12,18 @@ body{
 }
 
 p.redred{   
-    padding: 50px 150px 300px;
-    color:white;
-    border: 10px dashed;
-    border-color:aqua;
-    background-image: url(../assets/img/bg.jpg);   
+    padding:10px 150px 0px 120px;
+    color: rgb(90, 140, 197);
     font-size: 40px;
-    text-align: left;
-    text-indent: 2em;
-    background-color: palegreen;
+    text-align: center;
+    border: 10px solid;
+    border-radius: 15px;
+    margin: 0px 0px 100px 50%;
+    border-color: hsl(196, 42%, 41%);
+    font-family: 'Noto serif TC','sans-serif';
+    background-image: url(../assets/img/bg.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -47,7 +50,7 @@ ol.list02{
     list-style-type:square;
 }
 ol.list01>li:hover{
-    background-color:rgb(43, 155, 80);
+    background-color:hsl(162, 69%, 28%);
     color: brown;
 }
 table.table01{
