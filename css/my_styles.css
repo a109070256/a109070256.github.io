@@ -4,6 +4,7 @@
 }
 .bg-primary{
     background-image: url(../assets/img/sky.jpg);
+    background-size: Cover ;
     background-color: black !important
 }
 
